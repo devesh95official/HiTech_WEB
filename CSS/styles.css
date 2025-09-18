@@ -1,0 +1,27 @@
+/* Minimal blog styles */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    padding: 18px;
+    background: #fff;
+}
+
+article{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+}
+
+section{
+    margin-top: 12px;
+}
+
+footer{
+    margin-top: 18px;
+    color: #555;
+}

@@ -1,0 +1,68 @@
+.container{
+    border: 1px solid #333;
+    background: #e6f4ea;
+    min-height: 70vh;
+    display: grid;
+    /* three equal columns */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 120px 1fr;
+    gap: 20px;
+    padding: 16px;
+}
+
+.items{
+    background: #c9f0ff;
+    padding: 16px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+/* Example: make item5 span multiple columns and rows */
+.item5{
+    grid-column: 1 / span 3; /* start at col 1, span 3 columns */
+    grid-row: 2 / span 1;    /* sit in the second row */
+}
+
+/* item8 spans the full width */
+.item8{
+    grid-column: 1 / -1; /* from first to last column */
+}
+
+.container2{
+    min-height: 60vh;
+    background: transparent;
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "article article article aside"
+        "footer footer footer footer";
+    gap: 12px;
+}
+
+.header{
+    grid-area: header;
+    background: #fffae6;
+    padding: 12px;
+}
+
+.article{
+    grid-area: article;
+    background: #fff0f5;
+    padding: 12px;
+}
+
+.aside{
+    grid-area: aside;
+    background: #eef2ff;
+    padding: 12px;
+}
+
+.footer{
+    grid-area: footer;
+    background: #222;
+    color: #fff;
+    padding: 12px;
+}
