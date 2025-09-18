@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>HTML Tutorial — Basics and Examples</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Basics</h1>
+            <p>A small, practical demonstration of common HTML elements with accessible markup and sensible defaults.</p>
+        </header>
+
+        <nav>
+            <a href="#examples">Jump to examples</a> |
+            <a href="blog.html">Read the blog</a>
+        </nav>
+
+        <main id="examples">
+            <section aria-labelledby="headings">
+                <h2 id="headings">Headings</h2>
+                <p>HTML provides six levels of headings. Use them in order to express document structure:</p>
+                <h1>Example: Heading level 1</h1>
+                <h2>Example: Heading level 2</h2>
+                <h3>Example: Heading level 3</h3>
+            </section>
+
+            <section aria-labelledby="paragraphs">
+                <h2 id="paragraphs">Paragraphs and Inline Formatting</h2>
+                <p>This is a simple paragraph demonstrating <strong>strong</strong> and <em>emphasis</em>.</p>
+                <p>This is another paragraph with a <mark>highlighted</mark> phrase.</p>
+            </section>
+
+            <section aria-labelledby="links">
+                <h2 id="links">Links</h2>
+                <p>External link example: <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">Google</a></p>
+            </section>
+
+            <section aria-labelledby="lists">
+                <h2 id="lists">Lists</h2>
+                <p>Unordered and ordered lists:</p>
+                <ul>
+                    <li>Learn the basics</li>
+                    <li>Practice by building pages</li>
+                    <li>Explore accessibility</li>
+                </ul>
+                <ol>
+                    <li>Plan</li>
+                    <li>Code</li>
+                    <li>Test</li>
+                </ol>
+            </section>
+
+            <section aria-labelledby="table">
+                <h2 id="table">Table</h2>
+                <p>Example table with header and body rows:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Class</th>
+                            <th scope="col">Roll No.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Devesh</td>
+                            <td>12th</td>
+                            <td>38</td>
+                        </tr>
+                        <tr>
+                            <td>Priya</td>
+                            <td>11th</td>
+                            <td>12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section aria-labelledby="form">
+                <h2 id="form">Form example</h2>
+                <form>
+                    <div>
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="hostler" name="hostler">
+                        <label for="hostler">Hostler</label>
+                    </div>
+
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </fieldset>
+
+                    <div>
+                        <label for="dob">Date of birth</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" min="0">
+                    </div>
+
+                    <div>
+                        <label for="favoriteColor">Favorite color</label>
+                        <input type="color" id="favoriteColor" name="favoriteColor">
+                    </div>
+
+                    <div>
+                        <label for="file">Upload a file</label>
+                        <input type="file" id="file" name="file">
+                    </div>
+
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+
+                    <div>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </section>
+
+            <section aria-labelledby="media">
+                <h2 id="media">Media</h2>
+                <p>Images, video, and audio examples (files are optional and may need local paths):</p>
+                <img src="../Assets/download.jpg" alt="Decorative image" onerror="this.alt='Image not found'">
+
+                <p>Embedded page:</p>
+                <iframe src="blog.html" title="Blog preview" style="width:100%;height:200px;border:1px solid #ccc;"></iframe>
+
+                <p>Audio example:</p>
+                <audio controls>
+                    <source src="../Assets/game-show.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <p>Video example:</p>
+                <video controls width="330" height="230">
+                    <source src="../Assets/home-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+        </main>
+
+    </body>
+</html>
