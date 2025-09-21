@@ -1,4 +1,4 @@
-<img src="https://github.com/devesh95official/HiTech_WEB/blob/main/Assets/Icons/github.pngg" width="200px" />
+<img src="https://github.com/devesh95official/HiTech_WEB/blob/main/Assets/Icons/github.png" width="200px" />
 
 # GitHub CheatSheet
 
