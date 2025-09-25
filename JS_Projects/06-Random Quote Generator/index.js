@@ -4,7 +4,7 @@ const quoteEl = document.getElementById("quote");
 const autEl = document.getElementById("aut");
 
 const apiUrl = `https://api.api-ninjas.com/v1/quotes`;
-const apiKey = "usCdIMhtaN+YCismTz7hhQ==PrE3alofez6KGtUk";
+const apiKey = "api key!!";
 
 const options = {
     method: "GET",
