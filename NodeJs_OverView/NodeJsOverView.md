@@ -4,8 +4,6 @@
 
 * A complete, beginner-friendly Node.js course in **one** Markdown file
 * Hands-on examples you can run locally
-* Small projects, practice assignments and solutions
-* Tips for teaching and common pitfalls
 
 ---
 
@@ -35,8 +33,6 @@
 11. [Testing (light intro)](#-testing-light-intro)
 12. [Deployment & Next Steps](#-deployment--next-steps)
 13. [Cheat Sheet & Commands](#-cheat-sheet--commands)
-14. [Exercises + Solutions](#-exercises--solutions)
-15. [Contributing & License](#-contributing--license)
 
 ---
 
@@ -386,3 +382,4 @@ nodemon index.js
 # test
 npm test
 ```
+
